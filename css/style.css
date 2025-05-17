@@ -1265,6 +1265,12 @@ section{
 
 }
 
+@media (max-width:800px){
+   .home-grid .hero-banner img{
+      height: 18rem;
+   }
+}
+
 @media (max-width:768px){
 
    #search-btn{
@@ -1288,6 +1294,12 @@ section{
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
    }
 
+}
+
+@media (max-width:640px){
+   .home-grid .hero-banner img{
+      height: 12rem;
+   }
 }
 
 @media (max-width:450px){

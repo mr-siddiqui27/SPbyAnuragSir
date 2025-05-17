@@ -5,7 +5,7 @@
 
 
 :root{
-   --main-color:#8e44ad;
+   --main-color:rgb(31, 68, 216);
    --red:#e74c3c;
    --orange:#f39c12;
    --light-color:#888;
@@ -52,6 +52,7 @@ body{
 }
 
 body.dark{
+   --main-color:rgba(183, 96, 28, 0.984);
    --light-color:#aaa;
    --light-bg:#333;
    --black:#fff;
@@ -163,7 +164,7 @@ section{
    font-family: 'Playfair Display', serif;
 
    font-size: 6rem;
-   color: blue;
+   color:var(--main-color);
    font-weight: bold;
 
 }

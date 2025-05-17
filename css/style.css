@@ -402,6 +402,22 @@ section{
    color:var(--main-color);
 } */
 
+
+
+
+
+
+
+
+
+
+/*                                      NOTICE BAR                                                           */
+
+.notice-box{
+   
+}
+
+
 .home-grid .hero-banner img{
    width: 100%;
    height: 23rem;
@@ -1289,7 +1305,7 @@ section{
 .footer{
    background-color: var(--white);
    border-top: var(--border);
-   position: sticky;
+   /* position: sticky; */
    bottom: 0; left: 0; right: 0;
    text-align: center;
    font-size: 2rem;

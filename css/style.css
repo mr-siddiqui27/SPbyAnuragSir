@@ -330,76 +330,84 @@ section{
    left: -30rem;
 }
 
-.home-grid .box-container{
+/* .home-grid .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 27.5rem);
    gap:1.5rem;
    justify-content: center;
    align-items: flex-start;
-}
-
+} */
+/* 
 .home-grid .box-container .box{
    background-color: var(--white);
    border-radius: .5rem;
    padding:2rem;
-}
+} */
 
-.home-grid .box-container .box .title{
+/* .home-grid .box-container .box .title{
    font-size: 2rem;
    color: var(--black);
    text-transform: capitalize;
-}
+} */
 
-.home-grid .box-container .box .flex{
+/* .home-grid .box-container .box .flex{
    display: flex;
    flex-wrap: wrap;
    gap: 1.5rem;
    margin-top: 2rem;
-}
+} */
 
-.home-grid .box-container .flex a{
+/* .home-grid .box-container .flex a{
    background-color: var(--light-bg);
    border-radius: .5rem;
    padding: 1rem 1.5rem;
    font-size: 1.5rem;
-}
+} */
 
-.home-grid .box-container .flex a i{
+/* .home-grid .box-container .flex a i{
    margin-right: 1rem;
    color:var(--black);
-}
+} */
 
-.home-grid .box-container .flex a span{
+/* .home-grid .box-container .flex a span{
    color:var(--light-color);
-}
+} */
 
-.home-grid .box-container .flex a:hover{
+/* .home-grid .box-container .flex a:hover{
    background-color: var(--black);
-}
+} */
 
-.home-grid .box-container .flex a:hover span{
+/* .home-grid .box-container .flex a:hover span{
    color:var(--white);
-}
+} */
 
-.home-grid .box-container .flex a:hover i{
+/* .home-grid .box-container .flex a:hover i{
    color:var(--white);
-}
+} */
 
-.home-grid .box-container .tutor{
+/* .home-grid .box-container .tutor{
    padding: 1rem 0;
    font-size: 1.8rem;
    color:var(--light-color);
    line-height: 2;
-}
+} */
 
-.home-grid .box-container .likes{
+/* .home-grid .box-container .likes{
    color:var(--light-color);
    font-size: 1.7rem;
    margin-top: 1.5rem;
-}
+} */
 
-.home-grid .box-container .likes span{
+/* .home-grid .box-container .likes span{
    color:var(--main-color);
+} */
+
+.home-grid .hero-banner img{
+   width: 100%;
+   height: 23rem;
+   object-fit: cover;
+   border-radius: .5rem;
+
 }
 
 .about .row{

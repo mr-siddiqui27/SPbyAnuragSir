@@ -714,9 +714,10 @@ section{
 .watch-video .video-container .video{
    position: relative;
    margin-bottom: 1.5rem;
+   height: 50rem;
 }
 
-.watch-video .video-container .video video{
+.watch-video .video-container .video iframe{
    border-radius: .5rem;
    width: 100%;
    object-fit: contain;

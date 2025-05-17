@@ -431,9 +431,7 @@ section{
 
 /*                                      NOTICE BAR                                                           */
 
-.notice-box{
-   
-}
+ 
 
 
 .home-grid .hero-banner img{
@@ -1014,64 +1012,37 @@ section{
    justify-content: center;
    align-items: flex-start;
 }
-
-.teachers .box-container .box{
+.teachers .box-container .profile{
+   text-align: center;
    background-color: var(--white);
    border-radius: .5rem;
    padding: 2rem;
 }
 
-.teachers .box-container .offer{
-   text-align: center;
-}
-
-.teachers .box-container .offer h3{
-   font-size: 2.5rem;
-   color: var(--black);
-   text-transform: capitalize;
-   padding-bottom: .5rem;
-}
-
-.teachers .box-container .offer p{
-   line-height: 1.7;
-   padding: .5rem 0;
-   color: var(--light-color);
-   font-size: 1.7rem;
-}
-
-.teachers .box-container .box .tutor{
-   display: flex;
-   align-items: center;
-   gap:2rem;
-   margin-bottom: 1.5rem;
-}
-
-.teachers .box-container .box .tutor img{
-   height: 5rem;
-   width: 5rem;
+.teachers .box-container .profile .image{
+   height: 10rem;
+   width: 10rem;
    border-radius: 50%;
+   object-fit: contain;
+   margin-bottom: 1rem;
 }
 
-.teachers .box-container .box .tutor h3{
+.teachers .box-container .profile .name{
    font-size: 2rem;
-   color: var(--black);
-   margin-bottom: .2rem;
+   color:var(--black);
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
 }
 
-.teachers .box-container .box .tutor span{
-   font-size: 1.6rem;
+.teachers .box-container .profile .role{
+   font-size: 1.8rem;
    color: var(--light-color);
 }
+ 
 
-.teachers .box-container .box p{
-   padding: .5rem 0;
-   font-size: 1.7rem;
-   color: var(--light-color);
-}
 
-.teachers .box-container .box p span{
-   color: var(--main-color);
-}
+
 
 .teacher-profile .details{
    text-align: center;
